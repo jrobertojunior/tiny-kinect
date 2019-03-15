@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkeletonData", "KinectSolution\SkeletonData.csproj", "{1EB6A0C8-98F2-497E-AB7D-3B93BEFFFF0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB6A0C8-98F2-497E-AB7D-3B93BEFFFF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB6A0C8-98F2-497E-AB7D-3B93BEFFFF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB6A0C8-98F2-497E-AB7D-3B93BEFFFF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB6A0C8-98F2-497E-AB7D-3B93BEFFFF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63B0708A-A445-408A-BBDF-1C0AE555C5C6}
+	EndGlobalSection
+EndGlobal
