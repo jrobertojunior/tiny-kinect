@@ -55,10 +55,13 @@ namespace SkeletonData
                 {
                     foreach (Body body in bodies)
                     {
-                        IReadOnlyDictionary<JointType, Joint> joints = body.Joints;
+                        if (body.IsTracked)
+                        {
+                            IReadOnlyDictionary<JointType, Joint> joints = body.Joints;
 
-                        // do something here!
-                        Console.WriteLine("{0}: {1}", JointType.Head, joints[JointType.Head].Position.X);
+                            // do something here!
+                            Console.WriteLine("{0}: {1}", JointType.Head, joints[JointType.Head].Position.X);
+                        }
                     }
                 }
             }
